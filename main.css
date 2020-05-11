@@ -1,0 +1,81 @@
+div {
+  border: 2px solid black;
+}
+
+.entire-mail {
+  width: 550px;
+  font-style: Abraham Trial;
+}
+
+.top-div {
+  width: 550px;
+  height: 130px;
+  background-color: #2d2ba9;
+}
+
+.title-div {
+  width: 550px;
+  height: 124px;
+  background-color: #ffffff;
+  border-radius: 37px 37px 0px 0px;
+  color: #2d2ba9;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.crown-img {
+  position: absolute;
+  left: 206px;
+  z-index: 20;
+  top: 50px;
+}
+.subtitle-div {
+  width: 550px;
+  height: 195px;
+  display: flex;
+}
+
+.subtitle-info {
+  width: 275px;
+  padding-left: 61px;
+  color: #2d2ba9;
+}
+
+.subtitle-info-title {
+  color: #ff5f50;
+  font-size: 22px;
+}
+
+.subtitle-ketarim-number {
+  width: 275px;
+  position: relative;
+  top: 25px;
+  left: 75px;
+}
+
+.table-data {
+  width: 550px;
+  height: 534px;
+}
+
+.donor-table {
+  width: 100%;
+}
+
+.table-head {
+  font-size: 16px;
+  background-color: #ceccea;
+  border: 1px solid #ceccea;
+}
+
+.table-body {
+  font-size: 14px;
+}
+
+.donate-div {
+  width: 550px;
+  height: 173px;
+}
