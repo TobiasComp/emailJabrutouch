@@ -3,113 +3,76 @@
   <head>
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      div {
-        border: 2px solid black;
-      }
-
-      .entire-mail {
-        width: 550px;
-        font-style: Abraham Trial;
-      }
-
-      .top-div {
-        width: 550px;
-        height: 130px;
-        background-color: #2d2ba9;
-      }
-
-      .title-div {
-        width: 550px;
-        height: 124px;
-        background-color: #ffffff;
-        border-radius: 37px 37px 0px 0px;
-        color: #2d2ba9;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        font-size: 30px;
-      }
-
-      .crown-img {
-        position: absolute;
-        left: 206px;
-        z-index: 20;
-        top: 50px;
-      }
-      .subtitle-div {
-        width: 550px;
-        height: 195px;
-        display: flex;
-      }
-
-      .subtitle-info {
-        width: 275px;
-        padding-left: 61px;
-        color: #2d2ba9;
-      }
-
-      .subtitle-info-title {
-        color: #ff5f50;
-        font-size: 22px;
-      }
-
-      .subtitle-ketarim-number {
-        width: 275px;
-        position: relative;
-        top: 25px;
-        left: 75px;
-      }
-
-      .table-data {
-        width: 550px;
-        height: 400px;
-      }
-
-      .donor-table {
-        width: 100%;
-      }
-
-      .table-head {
-        font-size: 16px;
-        background-color: #ceccea;
-        border: 1px solid #ceccea;
-      }
-
-      .table-body {
-        font-size: 14px;
-      }
-
-      .donate-div {
-        width: 550px;
-        height: 173px;
-        background-image: url("./images/donate.png");
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .donate-button {
-        background-color: #ff5f50;
-        color: white;
-        width: 300px;
-        height: 50px;
-        font-size: 31px;
-        border-radius: 50px;
-      }
-    </style>
   </head>
   <body>
-    <div class="entire-mail">
-      <div class="top-div"></div>
-      <div class="crown-img">
-        <img src="./images/ring-crown.png" alt="" />
+    <div
+      class="entire-mail"
+      style="border: 2px solid black; width: 550px; font-style: Abraham Trial;"
+    >
+      <div
+        class="top-div"
+        style="
+          border: 2px solid black;
+          width: 550px;
+          height: 130px;
+          background-color: #2d2ba9;
+        "
+      ></div>
+      <div
+        class="crown-img"
+        style="
+          border: 2px solid black;
+          position: absolute;
+          left: 206px;
+          z-index: 20;
+          top: 50px;
+        "
+      >
+        <img
+          src="https://raw.githubusercontent.com/TobiasComp/emailJabrutouch/master/images/ring-crown.png"
+          alt=""
+        />
       </div>
-      <div class="title-div">INFORME KETARIM</div>
-      <div class="subtitle-div">
-        <div class="subtitle-info">
-          <div class="subtitle-info-title">
+      <div
+        class="title-div"
+        style="
+          border: 2px solid black;
+          width: 550px;
+          height: 124px;
+          background-color: #ffffff;
+          border-radius: 37px 37px 0px 0px;
+          color: #2d2ba9;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          font-size: 30px;
+        "
+      >
+        INFORME KETARIM
+      </div>
+      <div
+        class="subtitle-div"
+        style="
+          border: 2px solid black;
+          width: 550px;
+          height: 195px;
+          display: flex;
+        "
+      >
+        <div
+          class="subtitle-info"
+          style="
+            border: 2px solid black;
+            width: 275px;
+            padding-left: 61px;
+            color: #2d2ba9;
+          "
+        >
+          <div
+            class="subtitle-info-title"
+            style="border: 2px solid black; color: #ff5f50; font-size: 22px;"
+          >
             Ketarim Entregados
           </div>
           <br />
@@ -119,13 +82,35 @@
           Desde: 15/04/20<br />
           Hasta: 20/04/20<br />
         </div>
-        <div class="subtitle-ketarim-number">
-          <img src="./images/ring-ketarim-count.png" alt="" />
+        <div
+          class="subtitle-ketarim-number"
+          style="
+            border: 2px solid black;
+            width: 275px;
+            position: relative;
+            top: 25px;
+            left: 75px;
+          "
+        >
+          <img
+            src="https://raw.githubusercontent.com/TobiasComp/emailJabrutouch/master/images/ring-ketarim-count.png"
+            alt=""
+          />
         </div>
       </div>
-      <div class="table-data">
-        <table class="donor-table">
-          <thead class="table-head">
+      <div
+        class="table-data"
+        style="border: 2px solid black; width: 550px; height: 400px;"
+      >
+        <table class="donor-table" style="width: 100%;">
+          <thead
+            class="table-head"
+            style="
+              font-size: 16px;
+              background-color: #ceccea;
+              border: 1px solid #ceccea;
+            "
+          >
             <tr>
               <td>FECHA</td>
               <td>RECEPTOR DEL KETER</td>
@@ -133,7 +118,7 @@
               <td>SHIUR ESTUDIADO</td>
             </tr>
           </thead>
-          <tbody class="table-body">
+          <tbody class="table-body" style="font-size: 14px;">
             <tr>
               <td>15/04/20</td>
               <td>ABRAHAM COHEN</td>
@@ -149,8 +134,31 @@
           </tbody>
         </table>
       </div>
-      <div class="donate-div">
-        <button class="donate-button">DONATE</button>
+      <div
+        class="donate-div"
+        style="
+          border: 2px solid black;
+          width: 550px;
+          height: 173px;
+          background-image: url(https://raw.githubusercontent.com/TobiasComp/emailJabrutouch/master/images/donate.png);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <button
+          class="donate-button"
+          style="
+            background-color: #ff5f50;
+            color: white;
+            width: 300px;
+            height: 50px;
+            font-size: 31px;
+            border-radius: 50px;
+          "
+        >
+          DONATE
+        </button>
       </div>
     </div>
   </body>
