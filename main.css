@@ -8,7 +8,8 @@
 }
 
 * {
-  font-family: Abraham TRIAL;
+  /* font-family: Abraham TRIAL;*/
+  font-family: Fira Sans;
 }
 
 .top-div {
@@ -56,7 +57,7 @@
 
 .subtitle-ketarim-number {
   width: 275px;
-  background-image: url("./images/ringWithoutNumber.png");
+  background-image: url("https://raw.githubusercontent.com/TobiasComp/emailJabrutouch/imageOnTop/images/ringWithoutNumber.png");
   background-repeat: no-repeat;
 }
 
@@ -108,7 +109,7 @@
 .donate-div {
   width: 550px;
   height: 173px;
-  background-image: url("./images/donate.png");
+  background-image: url("https://raw.githubusercontent.com/TobiasComp/emailJabrutouch/imageOnTop/images/donate.png");
   /* display: flex;
   justify-content: center;
   align-items: center; */
